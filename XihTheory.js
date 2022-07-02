@@ -16,4 +16,13 @@ var init = () => {
     currency = theory.createCurrency();
 }
 
+var getPrimaryEquation = () => {
+    let result = "\\dot{\\rho} = a_1";
+
+    result += "a_2";
+
+    return result;
+}
+
+
 init();
