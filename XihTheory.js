@@ -24,5 +24,6 @@ var getPrimaryEquation = () => {
     return result;
 }
 
+var get2DGraphValue = () => currency.value.sign * (BigNumber.ONE + currency.value.abs()).log10().toNumber();
 
 init();
