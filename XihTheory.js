@@ -34,4 +34,6 @@ var getPrimaryEquation = () => {
 
 var get2DGraphValue = () => currency.value.sign * (BigNumber.ONE + currency.value.abs()).log10().toNumber();
 
+var getA1 = (level) => Utils.getStepwisePowerSum(level, 2, 10, 0);
+
 init();
